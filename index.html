@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <h1>PERSONAL INFORMATION FORM</h1>
+    
+    <br><br>
+
+    <h4>ENTER YOUR INFORMATION</h4>
+    <br>
+  <input type="text" id="input-el" />
+  <button id="input-butn">SUBMIT</button>
+   <p id="lead-link"></p>
+	
+    
+    <script >
+    
+    
+    const inputel=document.getElementById("input-el"); 
+    const butn=document.getElementById('input-butn');
+    const leadsel=document.getElementById("lead-link");
+    
+    
+    butn.addEventListener("click",function(){
+
+        leadsel.innerHTML += inputel.value
+          
+    
+    }     
+            
+ )
+         
+    </script>                                                                                                                                                                                                                                                                                         
+      
+
+
+
+
+</body>
+</html>
